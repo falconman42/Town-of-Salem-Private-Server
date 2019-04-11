@@ -1,0 +1,57 @@
+- Implement death notes
+- jailor still gets "attacked by serial killer" if they jailed one
+- End lobby someone joined text
+- role wheel broken with random roles
+- 165 for pets not implemented (not important)
+- Town randoms done, doesn't handle unique roles but doesn't matter in classic
+
+Miscellaneous notes
+- Player does not visit is target was in jail
+- Doctor receives healed message is jailor was attacked by jailed SK
+
+priority order
+
+VETERAN - 0
+ESCORT - 1
+FRAMER - 2
+DOCTOR - 2
+SHERIFF - 3
+INVESTIGATOR - 3
+GODFATHER - 4
+SERIAL KILLER - 4
+VIGILANTE - 4
+MAFIOSO - 5
+JAILOR - 5
+LOOKOUT - 6
+
+Bodyguard - not gonna do yet
+Mayor - not gonna do yet
+Spy - not gonna do yet
+Transporter - not gonna do yet
+Retributionist - not gonna do yet
+
+DOCTOR - done
+ESCORT - done
+Executioner - done
+FRAMER - needs promotion
+GODFATHER - needs promotion
+INVESTIGATOR - done
+JAILOR - done
+Jester  done
+Lookout - done
+MAFIOSO - needs promotion
+Medium - done
+SerialKiller - done
+SHERIFF - done (except for werewolf on full moon)
+Veteran - done
+Vigilante - done
+
+_loc6_.StartKilledByMessageTimer(3000);
+will = 5
+
+Death timings
+3000
+3000
+3000 - if will
+(5000)
+3000
