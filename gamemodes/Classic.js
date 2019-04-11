@@ -1,9 +1,9 @@
 const Roles = require('../Roles.js');
 const u = require('../Utilities.js');
 
-var classic = [Roles.SHERIFF, Roles.MAFIOSO, Roles.INVESTIGATOR, Roles.JAILOR, Roles.MEDIUM,
+var classic = [Roles.SHERIFF, Roles.DOCTOR, Roles.INVESTIGATOR, Roles.JAILOR, Roles.MEDIUM,
                 Roles.GODFATHER, Roles.FRAMER, Roles.EXECUTIONER, Roles.ESCORT, Roles.MAFIOSO,
-                Roles.LOOKOUT, Roles.SERIALKILLER, Roles.TOWN_KILLING, Roles.JESTER, Roles.MAFIOSO];
+                Roles.LOOKOUT, Roles.SERIALKILLER, Roles.TOWN_KILLING, Roles.JESTER, Roles.RANDOM_TOWN];
 
 const unique = [Roles.VETERAN, Roles.JAILOR, Roles.GODFATHER];
 const random = [Roles.RANDOM_TOWN, Roles.TOWN_INVESTIGATIVE, Roles.TOWN_PROTECTIVE, Roles.TOWN_SUPPORT, Roles.TOWN_KILLING, Roles.RANDOM_MAFIA, Roles.RANDOM_NEUTRAL, Roles.ANY];
