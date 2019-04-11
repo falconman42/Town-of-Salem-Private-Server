@@ -1,11 +1,20 @@
 1. Open patcher.txt and download the archive
 2. Follow instructions contained to install patcher
+
+***DO NOT CONTINUE UNTIL PATCHER IS COMPLETE***
+
 3. Run a command prompt here and navigate to this directory (or hold shift and click here then press open command prompt here)
 4. Run the server using "node index.js"
-5. Connect in the game 
+5. Run the game
 
-If you are hosting the server you can use either "localhost" or "127.0.0.1" to connect but ONLY YOURSELF
+To connect to a server put the IP followed by the port in the password box in the format ip:port
 
-Other clients will need to use your IP which you can find here: https://www.whatsmyip.org/
+As an example:
+username: falconman42
+password: 127.0.0.1:3600
 
-You will also need to forward whatever port you're using. The port can be changed in config.json and will need to be forwarded in your router control panel.
+Only the HOST OF THE SERVER can use 127.0.0.1. Other clients will need the hosts IP address which can be found here: https://www.whatsmyip.org/ 
+
+You will also need to forward whatever port the server is using from your routers control panel. Use Google if you're unsure of how to do this.
+
+The port can be changed in config.json, the default port is 3600.
