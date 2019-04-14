@@ -19,6 +19,11 @@ Supported roles:
 - Sheriff
 - Veteran
 - Vigilante
+- Random Town
+- Town Investigative
+- Town Protective
+- Town Killing
+- Town Support
 
 Death notes currently aren't implemented.
 The role wheel will look strange with random roles.
